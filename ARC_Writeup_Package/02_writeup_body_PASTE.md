@@ -2,7 +2,7 @@
 
 Our ARC-AGI-2 entry is a two-candidate hybrid. Candidate 1 is a fork of a public notebook in our reachable band (`mikelou1/arc-agi2-lb33-89-minimal-perfpatch` — public; its title and slug self-label "33.89" (slug: "lb33-89"), which we cannot independently verify; its public page showed 32.22 at the Nov 5 check). Candidate 2 is a self-built DSL exact-fit solver (`defiaudit/agi2-dsl-v214r-solver`, public, CPU-only, no internet, no LLM), the surviving artifact of a 217-round hypothesis-lab cycle. Our best final score is 31.39 — 0.55 below the 31.94 bronze cutoff at the Nov 2 close (rank 669 of 3,571 then; settled once late grading drained: 715 of 3,627, cutoff 32.22).
 
-We treated the submission pipeline as a measurable system, not a one-shot lottery ticket. The headline result is not a leaderboard record; it is an audit: **44 graded hidden-set draws across the campaign — 43 on our fork line, one pooled draw on a second fork (NVARC+) — produced scores from 26.39 to 31.39, a 5.00-point spread.** For a benchmark graded to two decimals, the largest source of variance in a typical fork-cluster entry is not the model — it is the rerun.
+We treated the submission pipeline as a measurable system, not a one-shot lottery ticket. The headline result is not a leaderboard record; it is an audit: **44 graded hidden-set draws across the campaign — 43 on our fork line, one pooled draw on a second fork (NVARC+) — produced scores from 26.39 to 31.39, a 5.00-point spread.** For a benchmark graded to two decimals, the largest source of variance in our fork-cluster entry is not the model — it is the rerun.
 
 ## 2. The draws table
 
@@ -56,7 +56,7 @@ We replicated the audit on the ARC-AGI-3 track (best agent score 1.82). Mid-comp
 
 ## 10. Reproducibility
 
-Graded scores map to submission IDs in the public ledger. The linked dataset contains the 45-row ledger, verbatim Nov 5 export, and this v14 PDF. An owner-side check on Nov 5 found the draw history in a renamed private kernel: 32 versions, including v12 and verbatim v26; the best shown result was 31.39 at v9. This history is not publicly inspectable; public code evidence comprises the fire-time descriptions and SHA-256-checked chapter snapshots.
+Graded scores map to submission IDs in the public ledger. The linked dataset contains the 45-row ledger, verbatim Nov 5 export, and this v15 PDF. An owner-side check on Nov 5 found the draw history in a renamed private kernel: 32 versions, including v12 and verbatim v26; the best shown result was 31.39 at v9. This history is not publicly inspectable; public code evidence comprises the fire-time descriptions and SHA-256-checked chapter snapshots.
 
 ## 11. Limitations
 

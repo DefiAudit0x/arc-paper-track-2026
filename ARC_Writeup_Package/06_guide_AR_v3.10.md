@@ -1,4 +1,4 @@
-# دليل تقديم ورقة ARC Paper Track — v3.9 (تصحيحات مراجعة الجولة الثامنة — v14)
+# دليل تقديم ورقة ARC Paper Track — v3.10 (توحيد عبارتين — مراجعة الجولة التاسعة — v15)
 
 ## 🎯 الوضع الحقيقي (مؤكَّد بفحصين حيَّين + فحص مجهول الهوية — 5–6 نوفمبر)
 - **ورقتنا مُقدَّمة رسمياً منذ 12 سبتمبر 2026**: `https://www.kaggle.com/competitions/arc-prize-2026-paper-track/writeups/new-writeup-1789171832107` — شارة **"Submitted! — Main Track"** ✅.
@@ -8,18 +8,18 @@
 - **القاعدة الذهبية: لا تحذف الورقة، ولا تنشئ New Writeup — فقط Edit ثم Update Submission.**
 
 ## 🧾 الخطوة 1 — ارفع الإصدار 6 من مجموعة البيانات (الإصدار 5/v11 رُفع فعلاً يوم 5 نوفمبر 15:00 UTC)
-المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v14 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
+المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v15 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
 - **من المتصفح**: صفحة `defiaudit/arc-paper-track-2026` ← **New Version** ← اسحب محتويات المجلد كلها ← Save. (ملف `dataset-metadata.json` تُتجاهله الواجهة — اتركه.) الإصداران 4 (v9) و5 (v11) ستبقيان في تاريخ المجموعة تلقائياً.
 - **أو بالسطر التنازلي**:
-  `kaggle datasets version -p 10_dataset_upload -m "v14: paper v14 PDF (abstract: compare the fit with two related descriptive summaries; rerun-variance scoped to our entry; cover anchor limited to scores)" --dir-mode zip`
-- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v14.pdf`.
+  `kaggle datasets version -p 10_dataset_upload -m "v15: paper v15 PDF (unified wording with the body: our fork-cluster entry; anchor claim limited to graded scores)" --dir-mode zip`
+- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v15.pdf`.
 
 ## ✏️ الخطوة 2 — تعديل الورقة (نفس الرابط — 15 دقيقة)
 1. افتح رابط الورقة بحساب defiaudit → **Edit**.
 2. **Subtitle**: استبدله كلياً بـ:
    `44 graded hidden-set draws: 43 on one public-notebook fork line, 1 on a second fork (NVARC+); spread 26.39-31.39, sigma 1.09`
    (124 حرفاً من حد 140 — تقول "سحبات الحملة" وتصرّح بالتقسيم 43+1).
-3. **المتن**: احذف المتن القديم كاملاً والصق `02_writeup_body_PASTE.md` (**1488 كلمة ✅** من حد 1,500 — النسخة المصحَّحة من صديقك). العنوان لا يتغير.
+3. **المتن**: احذف المتن القديم كاملاً والصق `02_writeup_body_PASTE.md` (**1487 كلمة ✅** من حد 1,500 — نسخة صديقك المصحَّحة مع توحيد «our fork-cluster entry»). العنوان لا يتغير.
 4. **Media Gallery**:
    - **الغلاف**: استبدله بـ `04_images/cover_2400x1200.png` (نسبة **2:1**).
    - **الرسمان**: `04_images/fig1_draws44.png` (عنوانه "…draws of the campaign…" ونقطة NVARC+ برتقالية) + `04_images/fig2_emax_v5.png`.
@@ -31,8 +31,12 @@
 7. اضغط **Update Submission** مرة واحدة فقط.
 
 ## ✅ الخطوة 3 — التحقق بعد التحديث (دقيقتان)
-نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v14.
+نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v15.
 (الأقسام ب و ب2 = نتائج الفحصين الحيَّين المنفَّذَين قبل التحديث، للسجل.)
+
+## ما تغيّر في v15 (الجولة التاسعة — مراجعة صديقك الثانية لـ v14)
+1. **توحيد عبارة التباين**: متن الصفحة كان يقول «in a typical fork-cluster entry» بينما PDF v14 يقول «in our fork-cluster entry» — صارا متطابقين: «in **our** fork-cluster entry» في المواضع الثلاثة (الملخص و§12 من الـPDF + متن الصفحة). المتن الآن **1487 كلمة ✅**.
+2. **تقييد عبارة الإسناد**: «Every number is anchored to a Kaggle submission ID» (الملخص و§12 من الـPDF وREADME الجذري) صارت «Every **graded score** is anchored to a Kaggle submission ID» — مطابقة لصياغة المتن («Graded scores map to submission IDs in the public ledger»)؛ فبقية الأرقام (المراتب، خط البرونز، القيم المستقرة) مرتبطة بلقطات لوحة الصدارة المؤرَّخة لا بمعرفات التسليمات. غلاف الـPDF كان قد قُيِّد في v14 إلى «every score anchored to a submission ID».
 
 ## ما تغيّر في v14 (الجولة الثامنة — مراجعة صديقك لمستودع GitHub عند f19359e)
 1. **الملخص**: «validate the fitted distribution against two distinct observables» صارت «compare the fitted distribution with two related descriptive summaries» — بنفس صياغة المتن و§6 (ملخصان وصفيان مرتبطان، وليسا تحققاً مستقلاً).
