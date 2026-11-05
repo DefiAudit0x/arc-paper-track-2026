@@ -1,0 +1,362 @@
+[
+ {
+  "ref": 56075910,
+  "date_utc": "2026-09-07 11:32:50",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": ""
+ },
+ {
+  "ref": 56100667,
+  "date_utc": "2026-09-08 14:45:56",
+  "status": "COMPLETE",
+  "public_score": "30.97",
+  "error_description": "",
+  "description": ""
+ },
+ {
+  "ref": 56125103,
+  "date_utc": "2026-09-09 14:23:05",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": ""
+ },
+ {
+  "ref": 56148554,
+  "date_utc": "2026-09-10 16:57:19",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "NVARC+ two half-cost passes pooled (passA LB-proven + seedB)"
+ },
+ {
+  "ref": 56168010,
+  "date_utc": "2026-09-11 15:22:35",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": "variance draw: perfpatch v1 rerun #3 (nondeterministic play)"
+ },
+ {
+  "ref": 56191452,
+  "date_utc": "2026-09-12 18:53:58",
+  "status": "COMPLETE",
+  "public_score": "30.97",
+  "error_description": "",
+  "description": "perfpatch v1 variance draw #6 (kernel v5, API-launched)"
+ },
+ {
+  "ref": 56242479,
+  "date_utc": "2026-09-15 01:31:31",
+  "status": "COMPLETE",
+  "public_score": "30.56",
+  "error_description": "",
+  "description": "variance draw #7: perfpatch v1 rerun (nondeterministic play, kernel v6 API-launched) \u2014 best-3 {30.97,30.97,30.14}, any >30.14 improves"
+ },
+ {
+  "ref": 56278055,
+  "date_utc": "2026-09-16 12:03:52",
+  "status": "COMPLETE",
+  "public_score": "26.39",
+  "error_description": "",
+  "description": "perfpatch v1 variance draw #8 (kernel v7, API-launched)"
+ },
+ {
+  "ref": 56290322,
+  "date_utc": "2026-09-17 00:50:31",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "perfpatch v1 variance draw #9 (kernel v8, API-launched)"
+ },
+ {
+  "ref": 56316858,
+  "date_utc": "2026-09-18 00:49:30",
+  "status": "COMPLETE",
+  "public_score": "31.39",
+  "error_description": "",
+  "description": ""
+ },
+ {
+  "ref": 56344456,
+  "date_utc": "2026-09-19 00:55:03",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": ""
+ },
+ {
+  "ref": 56392133,
+  "date_utc": "2026-09-20 11:20:46",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": "agi2-draw12: v11 variance draw"
+ },
+ {
+  "ref": 56410652,
+  "date_utc": "2026-09-21 01:43:58",
+  "status": "COMPLETE",
+  "public_score": "29.31",
+  "error_description": "",
+  "description": "agi2-draw13: v12 variance draw (fixed agent, fresh eval sample)"
+ },
+ {
+  "ref": 56446773,
+  "date_utc": "2026-09-22 00:20:01",
+  "status": "COMPLETE",
+  "public_score": "27.22",
+  "error_description": "",
+  "description": "agi2-draw14: v12 variance draw via code submission (post-reset relaunch)"
+ },
+ {
+  "ref": 56476966,
+  "date_utc": "2026-09-23 00:08:07",
+  "status": "COMPLETE",
+  "public_score": "29.31",
+  "error_description": "",
+  "description": "agi2-draw15: v12 variance draw (API-launched, midnight reset)"
+ },
+ {
+  "ref": 56506943,
+  "date_utc": "2026-09-24 00:18:59",
+  "status": "COMPLETE",
+  "public_score": "28.06",
+  "error_description": "",
+  "description": "agi2-draw16: v12 variance draw (API-launched, midnight reset)"
+ },
+ {
+  "ref": 56534453,
+  "date_utc": "2026-09-25 00:02:36",
+  "status": "COMPLETE",
+  "public_score": "29.03",
+  "error_description": "",
+  "description": "v12 variance draw #17 (kernel v12, API-launched)"
+ },
+ {
+  "ref": 56563942,
+  "date_utc": "2026-09-26 00:08:33",
+  "status": "COMPLETE",
+  "public_score": "28.06",
+  "error_description": "",
+  "description": "agi2-draw18: v12 variance draw (verbatim, API-launched)"
+ },
+ {
+  "ref": 56777145,
+  "date_utc": "2026-10-02 15:42:01",
+  "status": "COMPLETE",
+  "public_score": "29.31",
+  "error_description": "",
+  "description": "agi2-draw19: v12 variance draw (API-launched, cadence resumed Oct 2)"
+ },
+ {
+  "ref": 56795558,
+  "date_utc": "2026-10-03 10:16:59",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "agi2-draw20: v12 variance draw (API-launched, cadence Oct 3)"
+ },
+ {
+  "ref": 56828541,
+  "date_utc": "2026-10-04 16:09:14",
+  "status": "COMPLETE",
+  "public_score": "27.22",
+  "error_description": "",
+  "description": "agi2-draw21: v12 variance draw (API-launched, Oct 4 sweep)"
+ },
+ {
+  "ref": 56838789,
+  "date_utc": "2026-10-05 01:17:26",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": "draw22: v12 variance draw (API-launched, Oct 5)"
+ },
+ {
+  "ref": 56866534,
+  "date_utc": "2026-10-06 01:14:36",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": "draw23: v12 variance draw (API-launched, Oct 6)"
+ },
+ {
+  "ref": 56895967,
+  "date_utc": "2026-10-07 00:59:38",
+  "status": "COMPLETE",
+  "public_score": "28.47",
+  "error_description": "",
+  "description": "draw24: v12 variance draw (API-launched, Oct 7)"
+ },
+ {
+  "ref": 56929499,
+  "date_utc": "2026-10-08 02:22:41",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "draw24: v12 variance draw (API-launched, Oct 8)"
+ },
+ {
+  "ref": 56982331,
+  "date_utc": "2026-10-09 00:56:31",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": "draw25: v12 variance draw (API-launched, Oct 9)"
+ },
+ {
+  "ref": 57024478,
+  "date_utc": "2026-10-10 00:04:09",
+  "status": "COMPLETE",
+  "public_score": "28.47",
+  "error_description": "",
+  "description": "draw26: v15 SPT variance draw (API-launched, probmul3 picker, selfscore 33.50 cov / 27.36 e2e)"
+ },
+ {
+  "ref": 57058105,
+  "date_utc": "2026-10-11 01:18:53",
+  "status": "COMPLETE",
+  "public_score": "27.22",
+  "error_description": "",
+  "description": "draw27: v15 SPT variance draw (API-launched, probmul3 picker, sample 2)"
+ },
+ {
+  "ref": 57091249,
+  "date_utc": "2026-10-12 01:31:02",
+  "status": "COMPLETE",
+  "public_score": "28.06",
+  "error_description": "",
+  "description": "draw28: v15 SPT variance draw (API-launched, probmul3 picker)"
+ },
+ {
+  "ref": 57126165,
+  "date_utc": "2026-10-13 01:31:59",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": "draw29 v12 variance draw (flip rule post draw28<30); bronze line 31.81"
+ },
+ {
+  "ref": 57160155,
+  "date_utc": "2026-10-14 00:05:01",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": "draw30 v12 variance draw (flip rule post draw28<30); bronze line 31.81"
+ },
+ {
+  "ref": 57312203,
+  "date_utc": "2026-10-17 13:07:54",
+  "status": "COMPLETE",
+  "public_score": "28.06",
+  "error_description": "",
+  "description": "draw30 v12 variance draw (flip rule post draw28<30); bronze line 31.81"
+ },
+ {
+  "ref": 57331947,
+  "date_utc": "2026-10-18 00:40:31",
+  "status": "COMPLETE",
+  "public_score": "29.72",
+  "error_description": "",
+  "description": "draw32 v12 variance draw (n=19->20 paper series); bronze line 31.81"
+ },
+ {
+  "ref": 57374759,
+  "date_utc": "2026-10-19 00:29:25",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "draw32 v12 variance draw (n=19->20 paper series); bronze line 31.81"
+ },
+ {
+  "ref": 57415205,
+  "date_utc": "2026-10-20 00:37:57",
+  "status": "COMPLETE",
+  "public_score": "28.06",
+  "error_description": "",
+  "description": "draw34 v12 variance draw (n=21->22 paper series); bronze line 31.81"
+ },
+ {
+  "ref": 57456865,
+  "date_utc": "2026-10-21 00:01:17",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "draw35 v12 variance draw (n=22->23 paper series); bronze line 31.81"
+ },
+ {
+  "ref": 57543492,
+  "date_utc": "2026-10-23 00:48:00",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": "draw36 v12 variance draw (n=35->36 paper series); bronze line watch"
+ },
+ {
+  "ref": 57576234,
+  "date_utc": "2026-10-24 00:14:56",
+  "status": "COMPLETE",
+  "public_score": "29.31",
+  "error_description": "",
+  "description": "draw37 v12 variance draw (n=36->37 paper series); bronze lottery continues"
+ },
+ {
+  "ref": 57641015,
+  "date_utc": "2026-10-25 19:32:15",
+  "status": "COMPLETE",
+  "public_score": "28.89",
+  "error_description": "",
+  "description": "draw38 v26 verbatim (=v12 bytes) fresh-session bypass attempt; n=37->38 paper series"
+ },
+ {
+  "ref": 57646158,
+  "date_utc": "2026-10-26 00:03:28",
+  "status": "COMPLETE",
+  "public_score": "",
+  "error_description": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+  "description": "draw39 v26 daily variance draw (n=38->39 series); selection bake-off running separately on renamed kernel"
+ },
+ {
+  "ref": 57682428,
+  "date_utc": "2026-10-27 00:05:50",
+  "status": "COMPLETE",
+  "public_score": "30.14",
+  "error_description": "",
+  "description": "draw40 v29-V2SEL first soft_agreement draw (n=39->40 series); bake-off winner deployed as module default, cell8 pristine"
+ },
+ {
+  "ref": 57717109,
+  "date_utc": "2026-10-28 00:09:41",
+  "status": "COMPLETE",
+  "public_score": "28.47",
+  "error_description": "",
+  "description": "draw41 v31-HARD daily variance draw (n=40->41 series); soft_agreement selection + per-task crash hardening (draw39 lesson)"
+ },
+ {
+  "ref": 57752643,
+  "date_utc": "2026-10-29 00:09:16",
+  "status": "COMPLETE",
+  "public_score": "29.31",
+  "error_description": "",
+  "description": "draw42 v31-HARD daily variance draw (n=41->42 series); soft_agreement selection + per-task crash hardening (draw39 lesson)"
+ },
+ {
+  "ref": 57786357,
+  "date_utc": "2026-10-30 00:08:57",
+  "status": "COMPLETE",
+  "public_score": "28.47",
+  "error_description": "",
+  "description": "draw43 v31-HARD daily variance draw (n=42->43 series); soft_agreement selection + per-task crash hardening (draw39 lesson)"
+ },
+ {
+  "ref": 57855664,
+  "date_utc": "2026-11-01 00:48:18",
+  "status": "COMPLETE",
+  "public_score": "28.47",
+  "error_description": "",
+  "description": "draw45 v31-HARD daily variance draw (n=44->45 series); soft_agreement selection + per-task crash hardening (draw39 lesson)"
+ }
+]

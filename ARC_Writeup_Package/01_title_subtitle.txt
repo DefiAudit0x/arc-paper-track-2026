@@ -1,0 +1,8 @@
+=== انسخ هذا إلى خانة Title ===
+Fork Variance Is a Free Sample: Auditing a Hybrid ARC-AGI-2 Submission
+
+=== انسخ هذا إلى خانة Subtitle ===
+44 graded hidden-set draws: 43 on one public-notebook fork line, 1 on a second fork (NVARC+); spread 26.39-31.39, sigma 1.09
+
+(ملاحظة: الصياغة الجديدة تقول "سحبات الحملة" وتُصرّح بالتقسيم 43+1 كما في السجل — سحبة NVARC+ الواحدة موثّقة باسمها. لا تكتب identical-code: السلالة مرّت بفصول كود موثّقة.
+طول السطر 124 حرفاً من حد 140.)

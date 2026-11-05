@@ -1,0 +1,46 @@
+ref,date_utc,status,public_score,error_description,description
+56075910,2026-09-07 11:32:50,COMPLETE,28.89,,
+56100667,2026-09-08 14:45:56,COMPLETE,30.97,,
+56125103,2026-09-09 14:23:05,COMPLETE,30.14,,
+56148554,2026-09-10 16:57:19,COMPLETE,30.14,,NVARC+ two half-cost passes pooled (passA LB-proven + seedB)
+56168010,2026-09-11 15:22:35,COMPLETE,29.72,,variance draw: perfpatch v1 rerun #3 (nondeterministic play)
+56191452,2026-09-12 18:53:58,COMPLETE,30.97,,"perfpatch v1 variance draw #6 (kernel v5, API-launched)"
+56242479,2026-09-15 01:31:31,COMPLETE,30.56,,"variance draw #7: perfpatch v1 rerun (nondeterministic play, kernel v6 API-launched) — best-3 {30.97,30.97,30.14}, any >30.14 improves"
+56278055,2026-09-16 12:03:52,COMPLETE,26.39,,"perfpatch v1 variance draw #8 (kernel v7, API-launched)"
+56290322,2026-09-17 00:50:31,COMPLETE,30.14,,"perfpatch v1 variance draw #9 (kernel v8, API-launched)"
+56316858,2026-09-18 00:49:30,COMPLETE,31.39,,
+56344456,2026-09-19 00:55:03,COMPLETE,29.72,,
+56392133,2026-09-20 11:20:46,COMPLETE,28.89,,agi2-draw12: v11 variance draw
+56410652,2026-09-21 01:43:58,COMPLETE,29.31,,"agi2-draw13: v12 variance draw (fixed agent, fresh eval sample)"
+56446773,2026-09-22 00:20:01,COMPLETE,27.22,,agi2-draw14: v12 variance draw via code submission (post-reset relaunch)
+56476966,2026-09-23 00:08:07,COMPLETE,29.31,,"agi2-draw15: v12 variance draw (API-launched, midnight reset)"
+56506943,2026-09-24 00:18:59,COMPLETE,28.06,,"agi2-draw16: v12 variance draw (API-launched, midnight reset)"
+56534453,2026-09-25 00:02:36,COMPLETE,29.03,,"v12 variance draw #17 (kernel v12, API-launched)"
+56563942,2026-09-26 00:08:33,COMPLETE,28.06,,"agi2-draw18: v12 variance draw (verbatim, API-launched)"
+56777145,2026-10-02 15:42:01,COMPLETE,29.31,,"agi2-draw19: v12 variance draw (API-launched, cadence resumed Oct 2)"
+56795558,2026-10-03 10:16:59,COMPLETE,30.14,,"agi2-draw20: v12 variance draw (API-launched, cadence Oct 3)"
+56828541,2026-10-04 16:09:14,COMPLETE,27.22,,"agi2-draw21: v12 variance draw (API-launched, Oct 4 sweep)"
+56838789,2026-10-05 01:17:26,COMPLETE,29.72,,"draw22: v12 variance draw (API-launched, Oct 5)"
+56866534,2026-10-06 01:14:36,COMPLETE,29.72,,"draw23: v12 variance draw (API-launched, Oct 6)"
+56895967,2026-10-07 00:59:38,COMPLETE,28.47,,"draw24: v12 variance draw (API-launched, Oct 7)"
+56929499,2026-10-08 02:22:41,COMPLETE,30.14,,"draw24: v12 variance draw (API-launched, Oct 8)"
+56982331,2026-10-09 00:56:31,COMPLETE,28.89,,"draw25: v12 variance draw (API-launched, Oct 9)"
+57024478,2026-10-10 00:04:09,COMPLETE,28.47,,"draw26: v15 SPT variance draw (API-launched, probmul3 picker, selfscore 33.50 cov / 27.36 e2e)"
+57058105,2026-10-11 01:18:53,COMPLETE,27.22,,"draw27: v15 SPT variance draw (API-launched, probmul3 picker, sample 2)"
+57091249,2026-10-12 01:31:02,COMPLETE,28.06,,"draw28: v15 SPT variance draw (API-launched, probmul3 picker)"
+57126165,2026-10-13 01:31:59,COMPLETE,28.89,,draw29 v12 variance draw (flip rule post draw28<30); bronze line 31.81
+57160155,2026-10-14 00:05:01,COMPLETE,29.72,,draw30 v12 variance draw (flip rule post draw28<30); bronze line 31.81
+57312203,2026-10-17 13:07:54,COMPLETE,28.06,,draw30 v12 variance draw (flip rule post draw28<30); bronze line 31.81
+57331947,2026-10-18 00:40:31,COMPLETE,29.72,,draw32 v12 variance draw (n=19->20 paper series); bronze line 31.81
+57374759,2026-10-19 00:29:25,COMPLETE,30.14,,draw32 v12 variance draw (n=19->20 paper series); bronze line 31.81
+57415205,2026-10-20 00:37:57,COMPLETE,28.06,,draw34 v12 variance draw (n=21->22 paper series); bronze line 31.81
+57456865,2026-10-21 00:01:17,COMPLETE,30.14,,draw35 v12 variance draw (n=22->23 paper series); bronze line 31.81
+57543492,2026-10-23 00:48:00,COMPLETE,28.89,,draw36 v12 variance draw (n=35->36 paper series); bronze line watch
+57576234,2026-10-24 00:14:56,COMPLETE,29.31,,draw37 v12 variance draw (n=36->37 paper series); bronze lottery continues
+57641015,2026-10-25 19:32:15,COMPLETE,28.89,,draw38 v26 verbatim (=v12 bytes) fresh-session bypass attempt; n=37->38 paper series
+57646158,2026-10-26 00:03:28,COMPLETE,,Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset,draw39 v26 daily variance draw (n=38->39 series); selection bake-off running separately on renamed kernel
+57682428,2026-10-27 00:05:50,COMPLETE,30.14,,"draw40 v29-V2SEL first soft_agreement draw (n=39->40 series); bake-off winner deployed as module default, cell8 pristine"
+57717109,2026-10-28 00:09:41,COMPLETE,28.47,,draw41 v31-HARD daily variance draw (n=40->41 series); soft_agreement selection + per-task crash hardening (draw39 lesson)
+57752643,2026-10-29 00:09:16,COMPLETE,29.31,,draw42 v31-HARD daily variance draw (n=41->42 series); soft_agreement selection + per-task crash hardening (draw39 lesson)
+57786357,2026-10-30 00:08:57,COMPLETE,28.47,,draw43 v31-HARD daily variance draw (n=42->43 series); soft_agreement selection + per-task crash hardening (draw39 lesson)
+57855664,2026-11-01 00:48:18,COMPLETE,28.47,,draw45 v31-HARD daily variance draw (n=44->45 series); soft_agreement selection + per-task crash hardening (draw39 lesson)

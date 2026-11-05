@@ -1,0 +1,21 @@
+=== خانة Project Links (بعد تصحيحات الجولة السادسة) ===
+
+⚠ مهم: رابط نوتبوك السحبات القديم (defiaudit/arc-agi2-lb33-89-minimal-perfpatch)
+  يعطي 404 للعامة — الدفتر حيّ لكن **خاص ومُعاد تسميته** (يفتح "v32-VERIF" بصلاحية
+  المالك؛ 32 إصداراً بينها V12 وV26 — انظر evidence/artifact_status_check المنقَّح).
+  لا يُضاف كرابط في الورقة (الجمهور لن يراه)؛ وإن كان مضافاً من قبل: احذفه.
+
+1) النوتبوك المصدر (عام، 235 تصويتاً — عنوانه وslug يحملان self-label «lb33-89»:
+   غير موثَّق مستقلاً؛ الصفحة تعرض الآن 32.22. يُستشهد به كمصدر الفورك فقط):
+https://www.kaggle.com/code/mikelou1/arc-agi2-lb33-89-minimal-perfpatch
+
+2) الـ PDF (v11 في الإصدار 5 الحي؛ v12 جاهز للإصدار 6) + CSV + تصدير إثباتات كاجل + لقطات كود الفصول (عام — تحقق HTTP 200):
+https://www.kaggle.com/datasets/defiaudit/arc-paper-track-2026
+(صفحة المجموعة الآن: الإصدار 5 وفيه PDF v11 — تحقق حي 5–6 نوفمبر: مطابق بايت-ببايت للأرشيف، وعامة `isPrivate:false`. الإصدار 6 سيحمل v12 بتصحيح جملة الحذف في §1 وعدّ الأوصاف 39/44.)
+
+=== موجود أصلاً في الورقة - لا تحذفه ===
+AGI2 DSL v214r Solver:
+https://www.kaggle.com/code/defiaudit/agi2-dsl-v214r-solver
+
+=== رابط الورقة نفسها (للمراجعة) ===
+https://www.kaggle.com/competitions/arc-prize-2026-paper-track/writeups/new-writeup-1789171832107

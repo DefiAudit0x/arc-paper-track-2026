@@ -1,0 +1,46 @@
+ledger_no,graded_no,kaggle_ref,fired_utc,code_chapter,fire_label,status,public_score,note
+1,1,56075910,2026-09-07 11:32:50,perfpatch fork (kernels v1-v15),,COMPLETE,28.89,
+2,2,56100667,2026-09-08 14:45:56,perfpatch fork (kernels v1-v15),,COMPLETE,30.97,v1 same-version rerun (ledger 5's fire description says 'rerun #3')
+3,3,56125103,2026-09-09 14:23:05,perfpatch fork (kernels v1-v15),,COMPLETE,30.14,seed-patched fork v4
+4,4,56148554,2026-09-10 16:57:19,NVARC+ v3 (2nd fork),,COMPLETE,30.14,two half-cost passes pooled (passA LB-proven + seedB) - verbatim fire description; the one draw outside the main fork line
+5,5,56168010,2026-09-11 15:22:35,perfpatch fork (kernels v1-v15),#3,COMPLETE,29.72,
+6,6,56191452,2026-09-12 18:53:58,perfpatch fork (kernels v1-v15),#6,COMPLETE,30.97,
+7,7,56242479,2026-09-15 01:31:31,perfpatch fork (kernels v1-v15),#7,COMPLETE,30.56,
+8,8,56278055,2026-09-16 12:03:52,perfpatch fork (kernels v1-v15),#8,COMPLETE,26.39,
+9,9,56290322,2026-09-17 00:50:31,perfpatch fork (kernels v1-v15),#9,COMPLETE,30.14,
+10,10,56316858,2026-09-18 00:49:30,perfpatch fork (kernels v1-v15),,COMPLETE,31.39,
+11,11,56344456,2026-09-19 00:55:03,perfpatch fork (kernels v1-v15),,COMPLETE,29.72,
+12,12,56392133,2026-09-20 11:20:46,perfpatch fork (kernels v1-v15),draw12,COMPLETE,28.89,
+13,13,56410652,2026-09-21 01:43:58,perfpatch fork (kernels v1-v15),draw13,COMPLETE,29.31,
+14,14,56446773,2026-09-22 00:20:01,perfpatch fork (kernels v1-v15),draw14,COMPLETE,27.22,
+15,15,56476966,2026-09-23 00:08:07,perfpatch fork (kernels v1-v15),draw15,COMPLETE,29.31,
+16,16,56506943,2026-09-24 00:18:59,perfpatch fork (kernels v1-v15),draw16,COMPLETE,28.06,
+17,17,56534453,2026-09-25 00:02:36,perfpatch fork (kernels v1-v15),#17,COMPLETE,29.03,
+18,18,56563942,2026-09-26 00:08:33,perfpatch fork (kernels v1-v15),draw18,COMPLETE,28.06,
+19,19,56777145,2026-10-02 15:42:01,perfpatch fork (kernels v1-v15),draw19,COMPLETE,29.31,
+20,20,56795558,2026-10-03 10:16:59,perfpatch fork (kernels v1-v15),draw20,COMPLETE,30.14,
+21,21,56828541,2026-10-04 16:09:14,perfpatch fork (kernels v1-v15),draw21,COMPLETE,27.22,
+22,22,56838789,2026-10-05 01:17:26,perfpatch fork (kernels v1-v15),draw22,COMPLETE,29.72,
+23,23,56866534,2026-10-06 01:14:36,perfpatch fork (kernels v1-v15),draw23,COMPLETE,29.72,
+24,24,56895967,2026-10-07 00:59:38,perfpatch fork (kernels v1-v15),draw24,COMPLETE,28.47,
+25,25,56929499,2026-10-08 02:22:41,perfpatch fork (kernels v1-v15),draw24,COMPLETE,30.14,fire label reused (same label as ledger 24)
+26,26,56982331,2026-10-09 00:56:31,perfpatch fork (kernels v1-v15),draw25,COMPLETE,28.89,
+27,27,57024478,2026-10-10 00:04:09,perfpatch fork (kernels v1-v15),draw26,COMPLETE,28.47,
+28,28,57058105,2026-10-11 01:18:53,perfpatch fork (kernels v1-v15),draw27,COMPLETE,27.22,
+29,29,57091249,2026-10-12 01:31:02,perfpatch fork (kernels v1-v15),draw28,COMPLETE,28.06,
+30,30,57126165,2026-10-13 01:31:59,perfpatch fork (kernels v1-v15),draw29,COMPLETE,28.89,
+31,31,57160155,2026-10-14 00:05:01,perfpatch fork (kernels v1-v15),draw30,COMPLETE,29.72,
+32,32,57312203,2026-10-17 13:07:54,perfpatch fork (kernels v1-v15),draw30,COMPLETE,28.06,fire label reused (same label as ledger 31)
+33,33,57331947,2026-10-18 00:40:31,perfpatch fork (kernels v1-v15),draw32,COMPLETE,29.72,
+34,34,57374759,2026-10-19 00:29:25,perfpatch fork (kernels v1-v15),draw32,COMPLETE,30.14,fire label reused (same label as ledger 33)
+35,35,57415205,2026-10-20 00:37:57,perfpatch fork (kernels v1-v15),draw34,COMPLETE,28.06,
+36,36,57456865,2026-10-21 00:01:17,perfpatch fork (kernels v1-v15),draw35,COMPLETE,30.14,
+37,37,57543492,2026-10-23 00:48:00,perfpatch fork (kernels v1-v15),draw36,COMPLETE,28.89,
+38,38,57576234,2026-10-24 00:14:56,perfpatch fork (kernels v1-v15),draw37,COMPLETE,29.31,
+39,39,57641015,2026-10-25 19:32:15,v26 verbatim,draw38,COMPLETE,28.89,verbatim rerun of saved kernel v12 (fire description '=v12 bytes')
+40,,57646158,2026-10-26 00:03:28,v26 verbatim,draw39,COMPLETE,,"status COMPLETE, no score; Kaggle error: 'Your notebook hit an unhandled error while rerunning your code'; author reading: whole-run crash; excluded from n=44"
+41,40,57682428,2026-10-27 00:05:50,v29 re-rank,draw40,COMPLETE,30.14,
+42,41,57717109,2026-10-28 00:09:41,v31-HARD,draw41,COMPLETE,28.47,
+43,42,57752643,2026-10-29 00:09:16,v31-HARD,draw42,COMPLETE,29.31,
+44,43,57786357,2026-10-30 00:08:57,v31-HARD,draw43,COMPLETE,28.47,
+45,44,57855664,2026-11-01 00:48:18,v31-HARD,draw45,COMPLETE,28.47,final submission of the campaign
