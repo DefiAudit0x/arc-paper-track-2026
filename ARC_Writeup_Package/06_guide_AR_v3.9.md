@@ -1,4 +1,4 @@
-# دليل تقديم ورقة ARC Paper Track — v3.8 (مواءمة v13 مع المتن المصحَّح — الجولة السابعة)
+# دليل تقديم ورقة ARC Paper Track — v3.9 (تصحيحات مراجعة الجولة الثامنة — v14)
 
 ## 🎯 الوضع الحقيقي (مؤكَّد بفحصين حيَّين + فحص مجهول الهوية — 5–6 نوفمبر)
 - **ورقتنا مُقدَّمة رسمياً منذ 12 سبتمبر 2026**: `https://www.kaggle.com/competitions/arc-prize-2026-paper-track/writeups/new-writeup-1789171832107` — شارة **"Submitted! — Main Track"** ✅.
@@ -8,11 +8,11 @@
 - **القاعدة الذهبية: لا تحذف الورقة، ولا تنشئ New Writeup — فقط Edit ثم Update Submission.**
 
 ## 🧾 الخطوة 1 — ارفع الإصدار 6 من مجموعة البيانات (الإصدار 5/v11 رُفع فعلاً يوم 5 نوفمبر 15:00 UTC)
-المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v13 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
+المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v14 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
 - **من المتصفح**: صفحة `defiaudit/arc-paper-track-2026` ← **New Version** ← اسحب محتويات المجلد كلها ← Save. (ملف `dataset-metadata.json` تُتجاهله الواجهة — اتركه.) الإصداران 4 (v9) و5 (v11) ستبقيان في تاريخ المجموعة تلقائياً.
 - **أو بالسطر التنازلي**:
-  `kaggle datasets version -p 10_dataset_upload -m "v13: paper v13 PDF (sec1 fix renamed+private; 39/44 fire-description count; fit checks = two distinct observables, not independent validation)" --dir-mode zip`
-- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v13.pdf`.
+  `kaggle datasets version -p 10_dataset_upload -m "v14: paper v14 PDF (abstract: compare the fit with two related descriptive summaries; rerun-variance scoped to our entry; cover anchor limited to scores)" --dir-mode zip`
+- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v14.pdf`.
 
 ## ✏️ الخطوة 2 — تعديل الورقة (نفس الرابط — 15 دقيقة)
 1. افتح رابط الورقة بحساب defiaudit → **Edit**.
@@ -31,8 +31,14 @@
 7. اضغط **Update Submission** مرة واحدة فقط.
 
 ## ✅ الخطوة 3 — التحقق بعد التحديث (دقيقتان)
-نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v12.
+نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v14.
 (الأقسام ب و ب2 = نتائج الفحصين الحيَّين المنفَّذَين قبل التحديث، للسجل.)
+
+## ما تغيّر في v14 (الجولة الثامنة — مراجعة صديقك لمستودع GitHub عند f19359e)
+1. **الملخص**: «validate the fitted distribution against two distinct observables» صارت «compare the fitted distribution with two related descriptive summaries» — بنفس صياغة المتن و§6 (ملخصان وصفيان مرتبطان، وليسا تحققاً مستقلاً).
+2. **حصر التعميم**: «أكبر مصدر للتباين في fork-cluster entry» صارت «in **our** fork-cluster entry» في الملخص و§12 — فالعينة 43 سحبة من خط تطوير واحد + سحبة واحدة من NVARC+.
+3. **الغلاف**: «every number anchored to a public artifact» صارت «every score anchored to a submission ID» — مطابقة لمتن الصفحة («Graded scores map to submission IDs in the public ledger») وللدليل.
+4. **تصحيح روابط قديمة**: README الجذري كان يشير إلى دليل v3.7 (رابط مكسور) وجدوله يقول PDF v12 — صار v3.9 وv14؛ وخطوة التحقق أعلاه كانت تقول v12 — صارت v14؛ ومتن الصفحة نفسه: «this v12 PDF» صارت «this v14 PDF» (ما زال 1488 كلمة ✅).
 
 ## ما تغيّر في v13 (الجولة السابعة — مواءمة الورقة مع المتن المصحَّح)
 صديقك صحّح متن الصفحة (1488 كلمة) ليقول: اتفاق الحد الأقصى وعدّ تجاوز عتبة البرونز مع الملاءمة **ملخصان وصفيان مرتبطان، ليسا تحققاً مستقلاً ولا دليلاً على قابلية التبادل**. الـPDF v12 كان ما زال يقول "two independent observables … strongest evidence". v13 يواءم الورقة مع المتن في 4 مواضع: الملخص ("two distinct observables")، §2 ("σ barely moves" + "a descriptive similarity that does not by itself establish exchangeability")، §6 ("Two distinct observables" + "the strongest descriptive check … not independent validation of it")، §11 ("we treat draws … as only approximately exchangeable"). المتن المعتمد في الحزمة هو نسخة صديقك المصحَّحة نفسها.
