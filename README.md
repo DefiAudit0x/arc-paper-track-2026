@@ -10,7 +10,7 @@ Evidence bundle for the ARC Prize 2026 Paper Track submission
 
 ## ابدأ من هنا (العربية)
 - [`ARC_Writeup_Package/README_FIRST_AR.md`](ARC_Writeup_Package/README_FIRST_AR.md) — اقرأني أولاً.
-- [`ARC_Writeup_Package/06_guide_AR_v3.9.md`](ARC_Writeup_Package/06_guide_AR_v3.9.md) — خطوات تحديث صفحة الورقة والمجموعة على كيجل.
+- [`ARC_Writeup_Package/06_guide_AR_v3.10.md`](ARC_Writeup_Package/06_guide_AR_v3.10.md) — خطوات تحديث صفحة الورقة والمجموعة على كيجل.
 
 ## Key files
 

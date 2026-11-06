@@ -36,7 +36,7 @@
 
 ## ما تغيّر في v15 (الجولة التاسعة — مراجعة صديقك الثانية لـ v14)
 1. **توحيد عبارة التباين**: متن الصفحة كان يقول «in a typical fork-cluster entry» بينما PDF v14 يقول «in our fork-cluster entry» — صارا متطابقين: «in **our** fork-cluster entry» في المواضع الثلاثة (الملخص و§12 من الـPDF + متن الصفحة). المتن الآن **1487 كلمة ✅**.
-2. **تقييد عبارة الإسناد**: «Every number is anchored to a Kaggle submission ID» (الملخص و§12 من الـPDF وREADME الجذري) صارت «Every **graded score** is anchored to a Kaggle submission ID» — مطابقة لصياغة المتن («Graded scores map to submission IDs in the public ledger»)؛ فبقية الأرقام (المراتب، خط البرونز، القيم المستقرة) مرتبطة بلقطات لوحة الصدارة المؤرَّخة لا بمعرفات التسليمات. غلاف الـPDF كان قد قُيِّد في v14 إلى «every score anchored to a submission ID».
+2. **تقييد عبارة الإسناد**: «Every number is anchored to a Kaggle submission ID» (الملخص و§10 من الـPDF وREADME الجذري) صارت «Every **graded score** is anchored to a Kaggle submission ID» — مطابقة لصياغة المتن («Graded scores map to submission IDs in the public ledger»)؛ فبقية الأرقام (المراتب، خط البرونز، القيم المستقرة) مرتبطة بلقطات لوحة الصدارة المؤرَّخة لا بمعرفات التسليمات. غلاف الـPDF كان قد قُيِّد في v14 إلى «every score anchored to a submission ID».
 
 ## ما تغيّر في v14 (الجولة الثامنة — مراجعة صديقك لمستودع GitHub عند f19359e)
 1. **الملخص**: «validate the fitted distribution against two distinct observables» صارت «compare the fitted distribution with two related descriptive summaries» — بنفس صياغة المتن و§6 (ملخصان وصفيان مرتبطان، وليسا تحققاً مستقلاً).
