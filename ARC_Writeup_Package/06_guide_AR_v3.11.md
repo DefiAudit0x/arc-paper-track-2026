@@ -1,4 +1,4 @@
-# دليل تقديم ورقة ARC Paper Track — v3.10 (توحيد عبارتين — مراجعة الجولة التاسعة — v15)
+# دليل تقديم ورقة ARC Paper Track — v3.11 (غلاف المعرض + إصلاح قصّ الرابط — مراجعة الجولة الحادية عشرة — v16)
 
 ## 🎯 الوضع الحقيقي (مؤكَّد بفحصين حيَّين + فحص مجهول الهوية — 5–6 نوفمبر)
 - **ورقتنا مُقدَّمة رسمياً منذ 12 سبتمبر 2026**: `https://www.kaggle.com/competitions/arc-prize-2026-paper-track/writeups/new-writeup-1789171832107` — شارة **"Submitted! — Main Track"** ✅.
@@ -8,11 +8,11 @@
 - **القاعدة الذهبية: لا تحذف الورقة، ولا تنشئ New Writeup — فقط Edit ثم Update Submission.**
 
 ## 🧾 الخطوة 1 — ارفع الإصدار 6 من مجموعة البيانات (الإصدار 5/v11 رُفع فعلاً يوم 5 نوفمبر 15:00 UTC)
-المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v15 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
-- **من المتصفح**: صفحة `defiaudit/arc-paper-track-2026` ← **New Version** ← اسحب محتويات المجلد كلها ← Save. (ملف `dataset-metadata.json` تُتجاهله الواجهة — اتركه.) الإصداران 4 (v9) و5 (v11) ستبقيان في تاريخ المجموعة تلقائياً.
+المحتوى جاهز كاملاً في مجلد **`10_dataset_upload/`** (v16 PDF + سجل CSV + تصدير التسليمات + لقطتا LB + تقرير الحالة + `code_chapters/` بالأسماء الموحَّدة):
+- **من المتصفح**: صفحة `defiaudit/arc-paper-track-2026` ← **New Version** ← اسحب محتويات المجلد كلها ← Save. (اسحب **ملفات الـ15** فقط — `dataset-metadata.json` ملف إعداد لأداة السطر التنازلي وليس ملف رفع؛ إن سُحب مع المجلد تُتجاهله الواجهة.) الإصداران 4 (v9) و5 (v11) ستبقيان في تاريخ المجموعة تلقائياً.
 - **أو بالسطر التنازلي**:
-  `kaggle datasets version -p 10_dataset_upload -m "v15: paper v15 PDF (unified wording with the body: our fork-cluster entry; anchor claim limited to graded scores)" --dir-mode zip`
-- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v15.pdf`.
+  `kaggle datasets version -p 10_dataset_upload -m "v16: paper v16 PDF (gallery cover: every graded score anchored to a Kaggle submission ID; dataset URL no longer clips at the printed margin)" --dir-mode zip`
+- تحقق بعدها: صفحة المجموعة تعرض `ARC_Paper_Track_defiaudit_v16.pdf`.
 
 ## ✏️ الخطوة 2 — تعديل الورقة (نفس الرابط — 15 دقيقة)
 1. افتح رابط الورقة بحساب defiaudit → **Edit**.
@@ -31,8 +31,15 @@
 7. اضغط **Update Submission** مرة واحدة فقط.
 
 ## ✅ الخطوة 3 — التحقق بعد التحديث (دقيقتان)
-نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v15.
+نفّذ `09_live_check.md` قسم ج (6 بنود): الشارة، الـSubtitle حرفياً، بداية/نهاية المتن وعدّاد الكلمات، المعرض (نقطة NVARC+ البرتقالية)، الروابط الثلاثة، وصفحة المجموعة تعرض v16.
 (الأقسام ب و ب2 = نتائج الفحصين الحيَّين المنفَّذَين قبل التحديث، للسجل.)
+
+## ما تغيّر في v16 (الجولة الحادية عشرة — مراجعة صديقك لحزمة التجهيز عند 386eee6)
+1. **غلاف المعرض (Kaggle gallery)**: كان لا يزال يقول «every number anchored to a public artifact» — أُعيد توليده من مصدره (`hero_23.html` → `hero_24.html`): **«every graded score anchored to a Kaggle submission ID»**. إعادة عرض المصدر القديم مطابقة بكسل-بكسل للصورة المنشورة، والفرق في الجديدة محصور في سطر التذييل. غلاف الـPDF نفسه لم يتغير («every score anchored to a submission ID» منذ v14).
+2. **الـPDF v16**: قصّ رابط المجموعة عند الهامش (المطبوعة 6 — الموثَّق في الجولة 10) أُصلح من المصدر: `xurl` يكسر الرابطين الطويلين (§10 وفقرة Data availability) داخل الهوامش، و`\enlargethispage` يحافظ على متن من 9 صفحات — **الورقة 10 صفحات كما هي**، ولا تغيير في أي كلمة، والروابط القابلة للنقر كاملة. تحذير «Annotation out of page boundary» اختفى من سجل البناء.
+3. المتن: «this v16 PDF» — **1487 كلمة ✅** كما هي.
+4. الإصدار 6 من المجموعة يحمل v16 (ملفات المتصفح: 15 — انظر الملاحظة أعلاه).
+5. عدّاد كلمات محرر كاجل قد يختلف عن `wc -w` (1487) — افحصه في المعاينة قبل الحفظ؛ الهامش 13 كلمة.
 
 ## ما تغيّر في v15 (الجولة التاسعة — مراجعة صديقك الثانية لـ v14)
 1. **توحيد عبارة التباين**: متن الصفحة كان يقول «in a typical fork-cluster entry» بينما PDF v14 يقول «in our fork-cluster entry» — صارا متطابقين: «in **our** fork-cluster entry» في المواضع الثلاثة (الملخص و§12 من الـPDF + متن الصفحة). المتن الآن **1487 كلمة ✅**.

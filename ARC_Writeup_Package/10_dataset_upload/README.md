@@ -3,8 +3,8 @@
 Evidence bundle for the paper "Fork Variance Is a Free Sample: Auditing a Hybrid
 ARC-AGI-2 Submission" (ARC Prize 2026 Paper Track, writeup submitted Sep 12, 2026).
 
-## Contents (v15, November 6, 2026)
-- `ARC_Paper_Track_defiaudit_v15.pdf` — the full paper, current version (10 pages incl. cover; Appendix A = the complete 45-submission ledger). Earlier versions (v9 at dataset version 4, v11 at version 5) stay in this dataset's version history. v15 unifies wording with the writeup body: the variance claim reads our fork-cluster entry, and the anchor claim is limited to graded scores (Every graded score is anchored to a Kaggle submission ID).
+## Contents (v16, November 6, 2026)
+- `ARC_Paper_Track_defiaudit_v16.pdf` — the full paper, current version (10 pages incl. cover; Appendix A = the complete 45-submission ledger). Earlier versions (v9 at dataset version 4, v11 at version 5) stay in this dataset's version history. v16 regenerates the media-gallery cover with the scoped anchor claim (every graded score anchored to a Kaggle submission ID) and fixes the printed-margin clipping of the dataset URL; no wording changes.
 - `arc2_draws_raw_45.csv` — raw ledger: `ledger_no` 1-45, `graded_no` 1-44, code chapters, statuses, scores, notes. Reconciles 45/45 with the submissions export.
 - `kaggle_submissions_export_2026-11-05.csv/.json` — verbatim Kaggle API export: dates, fire-time descriptions (present for 39 of the 44 graded draws; 5 empty), statuses, scores, and the failed run's error string.
 - `kaggle_lb_snapshot_2026-09-06.csv` — public leaderboard snapshot proving 33.06 was the top-1% cutoff at fork time (rank 19 of 1,852).

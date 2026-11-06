@@ -56,7 +56,7 @@ We replicated the audit on the ARC-AGI-3 track (best agent score 1.82). Mid-comp
 
 ## 10. Reproducibility
 
-Graded scores map to submission IDs in the public ledger. The linked dataset contains the 45-row ledger, verbatim Nov 5 export, and this v15 PDF. An owner-side check on Nov 5 found the draw history in a renamed private kernel: 32 versions, including v12 and verbatim v26; the best shown result was 31.39 at v9. This history is not publicly inspectable; public code evidence comprises the fire-time descriptions and SHA-256-checked chapter snapshots.
+Graded scores map to submission IDs in the public ledger. The linked dataset contains the 45-row ledger, verbatim Nov 5 export, and this v16 PDF. An owner-side check on Nov 5 found the draw history in a renamed private kernel: 32 versions, including v12 and verbatim v26; the best shown result was 31.39 at v9. This history is not publicly inspectable; public code evidence comprises the fire-time descriptions and SHA-256-checked chapter snapshots.
 
 ## 11. Limitations
 
